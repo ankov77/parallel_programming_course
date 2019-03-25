@@ -2,7 +2,6 @@
 #include <iostream>
 #include <ctime>
 #include <algorithm>
-#include <stdlib.h>
 
 int max(int arr[], int n) {
     int m = arr[0];
