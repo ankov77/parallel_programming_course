@@ -2,6 +2,7 @@
 #include <iostream>
 #include <ctime>
 #include <algorithm>
+#include <stdlib.h>
 
 int max(int arr[], int n) {
     int m = arr[0];
@@ -48,7 +49,7 @@ int main(int argc, char* argv[]) {
     std::cout << "Source array: ";
     srand((unsigned int)time(NULL));
     for (int i = 0; i < arrLength; i++) {
-        arr[i] = std:rand() % 100;
+        arr[i] = rand() % 100;
         std::cout << arr[i] << " ";
     }
 
