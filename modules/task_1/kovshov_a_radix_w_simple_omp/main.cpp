@@ -49,7 +49,7 @@ int main(int argc, char* argv[]) {
     std::cout << "Source array: ";
     srand((unsigned int)time(NULL));
     for (int i = 0; i < arrLength; i++) {
-        arr[i] = rand() % 100;
+        arr[i] = rand_r(time(0)) % 100;
         std::cout << arr[i] << " ";
     }
 
