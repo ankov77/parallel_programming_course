@@ -1,5 +1,4 @@
 // Copyright 2019 Kovshov Andrey
-
 #include <iostream>
 #include <ctime>
 #include <algorithm>
